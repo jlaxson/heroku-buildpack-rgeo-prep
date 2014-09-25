@@ -28,5 +28,5 @@ ls $1/include
 echo "Lib:"
 ls $1/lib
 
-chmod a-r $1/.bundle/config
+chmod a-w $1/.bundle/config
 ls -la $1/.bundle
